@@ -67,7 +67,7 @@ class Box extends Component {
 		console.log('render');
 
 		return (
-			<div className="box square_btn35">{this.props.number}</div>
+			<div className="square_btn35">{this.props.number}</div>
 		)
 	}
 }
