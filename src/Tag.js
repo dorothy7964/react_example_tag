@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './css/Tag.css';
+import './css/box.css';
+import './css/button.css';
 import Box from './Box';
 import Button from './components/Button';
 
