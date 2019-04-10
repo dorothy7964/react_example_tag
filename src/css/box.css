@@ -1,3 +1,7 @@
+button {
+    outline: 0;
+}
+
 .square_btn35{
     display: block;
     position: relative;
