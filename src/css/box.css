@@ -3,6 +3,7 @@ button {
 }
 
 .square_btn35{
+    user-select: none;
     display: block;
     position: relative;
     top: 2em; left: 18em;

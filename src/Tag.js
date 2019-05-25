@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './css/tag.css';
 import './css/box.css';
 import './css/button.css';
 import Box from './Box';
@@ -60,7 +61,7 @@ class Tag extends Component {
 		let { show } = this.state;
 
 		return (
-			<div>
+			<div className="tag-wrapper">
 				<Button content="상자를 생성하기" boxFunc={this.handleCreate} bgColor="red" />
 				<Button content="상자를 삭제하기" boxFunc={this.handleDelete} bgColor="green" />
 				<Button content="상자를 생성/삭제하기" boxFunc={this.handleToggle} bgColor="blue" />
