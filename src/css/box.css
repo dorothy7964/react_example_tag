@@ -1,23 +1,23 @@
-button {
-    outline: 0;
+button { outline: 0; }
+
+.square_btn35 {
+  user-select: none;
+  display: block;
+  position: relative;
+  top: 2em; left: 18em;
+  width: 10px;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  transition: .4s;
 }
 
-.square_btn35{
-    user-select: none;
-    display: block;
-    position: relative;
-    top: 2em; left: 18em;
-    width: 10px;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    font-size: 25px;
-    color: #000;
-    transition: .4s;
-}
 .square_btn35:hover {
-    color:#ff7f7f;
+  color:#ff7f7f;
 }
-.square_btn35:before,.square_btn35:after{
+
+.square_btn35:before,.square_btn35:after {
   position: absolute;
   top: 0;
   content:'';
@@ -25,13 +25,15 @@ button {
   height: 100%;
   display: inline-block;
 }
-.square_btn35:before{
+
+.square_btn35:before {
   border-left: solid 1px #ff7f7f;
   border-top: solid 1px #ff7f7f;
   border-bottom: solid 1px #ff7f7f;
   left: 0;
 }
-.square_btn35:after{
+
+.square_btn35:after {
   content: '';
   border-top: solid 1px #ff7f7f;
   border-right: solid 1px #ff7f7f;

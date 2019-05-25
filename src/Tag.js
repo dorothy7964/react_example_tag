@@ -28,7 +28,6 @@ class Tag extends Component {
 			show : false,
 			number : 0
 		}
-
 		this.handleCreate = this.handleCreate.bind(this);
 		this.handleDelete = this.handleDelete.bind(this);
 		this.handleToggle = this.handleToggle.bind(this);
